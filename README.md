@@ -1,2 +1,2 @@
 # Hello-World
-Hello World - Learning Git from basics
+A brief introduction on "Learning Git"
