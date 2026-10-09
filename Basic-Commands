@@ -1,0 +1,39 @@
+Git is a distributed version control system used to track changes in your source code. Below is a categorized list of the most essential Git commands you will use daily.
+
+1. Setup & Configuration
+Run these commands when configuring Git for the first time on your machine.
+• git config --global user.name "Your Name" – Sets the name linked to your commit history.
+• git config --global user.email "you@example.com" – Sets the email linked to your commit history.
+• git config --global init.defaultBranch main – Sets main as your default initial branch name.
+
+2. Creating & Cloning Repositories
+• git init – Initializes a brand new, empty Git repository in your current local directory.
+• git clone <url> – Downloads an existing project from a remote host (like GitHub) and copies it locally.
+
+3. The Staging & Committing Workflow
+This workflow allows you to preview, format, and save your code changes.
+• git status – Shows which files have been modified, staged, or remain untracked.
+• git add <file-name> – Stages a specific file for the next snapshot.
+• git add . – Stages all modified and new files in the current directory.
+• git commit -m "Your descriptive message" – Permanently saves your staged changes into the local repository history.
+• git diff – Shows the exact line-by-line differences of files that are modified but not yet staged.
+
+4. Branching & Merging
+Branches allow you to work on new features isolated from the main working code.
+• git branch – Lists all local branches in your current repository.
+• git switch -c <branch-name> (or git checkout -b <branch-name>) – Creates a new branch and immediately switches your workspace to it.
+• git switch <branch-name> (or git checkout <branch-name>) – Switches from your current branch to another existing branch.
+• git merge <branch-name> – Combines the changes from the specified branch into your current active branch.
+• git branch -d <branch-name> – Deletes a local branch once its work is fully merged.
+
+5. Sharing & Syncing with Remote Repositories
+Commands for collaborating with others by pushing or pulling from platforms like GitHub or GitLab.
+• git remote add origin <url> – Connects your local repository to a remote server link.
+• git push origin <branch-name> – Uploads your local branch commits to the remote repository.
+• git pull – Fetches the latest updates from the remote repository and automatically merges them into your active local branch.
+• git fetch – Downloads updates from the remote repository without altering your local working files.
+
+6. Reviewing History & Undoing Changes
+• git log – Displays a chronological list of all saved commits in the current branch.
+• git restore <file-name> – Discards uncommitted changes in your working directory, reverting a file back to its last committed state.
+• git reset --hard HEAD – Wipes out all uncommitted changes and un-staged modifications, resetting your workspace entirely.
