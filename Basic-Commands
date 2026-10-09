@@ -37,3 +37,6 @@ Commands for collaborating with others by pushing or pulling from platforms like
 • git log – Displays a chronological list of all saved commits in the current branch.
 • git restore <file-name> – Discards uncommitted changes in your working directory, reverting a file back to its last committed state.
 • git reset --hard HEAD – Wipes out all uncommitted changes and un-staged modifications, resetting your workspace entirely.
+
+
+https://git-scm.com/cheat-sheet
